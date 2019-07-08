@@ -82,7 +82,8 @@ export default {
     init () {
       const options = {
         viewMode: 1, // 限制裁剪框不超过画布的大小
-        dragMode: 'none', // 移动画布
+        dragMode: 'move', // 移动画布
+        cropBoxMovable: false, // 通过拖动移动裁剪框
         guides: false, // 裁剪框虚线
         center: false, // 裁剪框中心线
         background: false, // 容器网格背景
