@@ -1,0 +1,59 @@
+{
+  "name": "vue-slim-cropper",
+  "version": "0.1.0",
+  "description": "💇 简洁易用的 vue 移动端图片裁剪组件",
+  "author": "momoko <ko.momo@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wannaxiao/vue-slim-cropper"
+  },
+  "keywords": [
+    "vue",
+    "mobile",
+    "image-cropper",
+    "image-clip"
+  ],
+  "main": "dist/vue-slim-cropper.min.js",
+  "module": "dist/vue-slim-cropper.esm.min.js",
+  "scripts": {
+    "dev": "parcel demo/index.html -p 8080 --out-dir demo/dev",
+    "build:demo": "rm -rf demo/dist/ && parcel build demo/index.html --out-dir demo/dist --public-url ./",
+    "build": "dio",
+    "lint": "eslint --fix --ext .js,.vue .",
+    "release": "sh scripts/release.sh"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@momoko/vue"
+    ]
+  },
+  "eslintIgnore": [
+    "dist"
+  ],
+  "babel": {
+    "presets": [
+      "@momoko/vue"
+    ]
+  },
+  "browserslist": [
+    "iOS >= 9",
+    "Android >= 4.4"
+  ],
+  "dependencies": {
+    "cropperjs": "^1.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@momoko/babel-preset-vue": "^0.2.0",
+    "@momoko/eslint-config-vue": "^0.2.2",
+    "dio-bundler": "^0.5.2",
+    "parcel-bundler": "^1.12.3",
+    "standard-version": "^4.4.0",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.2",
+    "vue-slim-loading": "^1.0.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
