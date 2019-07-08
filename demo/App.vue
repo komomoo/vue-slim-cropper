@@ -5,6 +5,7 @@
     loading-text="正在上传...">
     <h1>上传多张图片</h1>
 
+    <!-- 图片格子 -->
     <div class="img-box">
       <div
         v-for="(item, key) in imgList"
@@ -17,6 +18,7 @@
       </button>
     </div>
 
+    <!-- 用于唤起图片选择 -->
     <input
       v-show="false"
       ref="input"
@@ -24,6 +26,7 @@
       accept="image/*"
       @change="inputImgChange($event)">
 
+    <!-- 上传按钮 -->
     <button
       class="submit-btn"
       :disabled="!imgList.length"
@@ -31,6 +34,7 @@
       上传
     </button>
 
+    <!-- 裁剪页 -->
     <transition name="slim-fade">
       <div v-show="cropShow" class="crop-wrap">
         <SlimCropper ref="cropper" :src="inputImgUrl"></SlimCropper>

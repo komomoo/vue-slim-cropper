@@ -93,7 +93,7 @@ export default {
       }
       this.cropper = new Cropper(this.$refs.img, options)
     },
-    // 获取裁减后的 file 对象
+    // 获取裁剪后的图片 blob 对象
     getCroppedBlob (type = 'image/jpeg', quality = 1) {
       return new Promise((resolve, reject) => {
         this.cropper.getCroppedCanvas().toBlob((file) => {

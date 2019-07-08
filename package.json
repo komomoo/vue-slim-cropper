@@ -1,7 +1,7 @@
 {
   "name": "vue-slim-cropper",
   "version": "0.1.0",
-  "description": "💇 简洁易用的 vue 移动端图片裁剪组件",
+  "description": "💇 A simple and elegant mobile image crop upload component for Vue 2.x | 简洁易用的 vue 移动端图片裁剪上传组件",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
   "private": false,
@@ -35,6 +35,11 @@
   "babel": {
     "presets": [
       "@momoko/vue"
+    ]
+  },
+  "dioConfig": {
+    "external": [
+      "cropperjs"
     ]
   },
   "browserslist": [
