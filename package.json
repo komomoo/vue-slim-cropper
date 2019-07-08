@@ -45,7 +45,7 @@
     "cropperjs": "^1.5.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
+    "@babel/core": "^7.5.0",
     "@momoko/babel-preset-vue": "^0.2.0",
     "@momoko/eslint-config-vue": "^0.2.2",
     "dio-bundler": "^0.5.2",

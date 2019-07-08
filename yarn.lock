@@ -29,7 +29,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.2.2", "@babel/core@^7.3.3":
+"@babel/core@^7.2.2", "@babel/core@^7.3.3", "@babel/core@^7.5.0":
   version "7.5.0"
   resolved "https://registry.npm.taobao.org/@babel/core/download/@babel/core-7.5.0.tgz?cache=0&sync_timestamp=1562245160562&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcore%2Fdownload%2F%40babel%2Fcore-7.5.0.tgz#6ed6a2881ad48a732c5433096d96d1b0ee5eb734"
   integrity sha1-btaiiBrUinMsVDMJbZbRsO5etzQ=

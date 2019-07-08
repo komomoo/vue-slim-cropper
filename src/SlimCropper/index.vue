@@ -141,10 +141,10 @@ $color = #fff;
     }
 
     .point-ne, .point-nw, .point-sw, .point-se {
-      // width: 30px;
-      // height: 30px;
+      width: 10px;
+      height: 10px;
       // z-index: -1;
-      opacity: 0.5;
+      opacity: 0.8;
     }
   }
 }
