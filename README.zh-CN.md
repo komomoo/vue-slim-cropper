@@ -6,6 +6,8 @@
 
 <img src="./demo/assets/demo.gif" width="320" style="margin-top: 20px;">
 
+<img src="./demo/assets/qrcode.png" width="200" style="margin-top: 20px;">
+
 [Demo](https://wannaxiao.github.io/vue-slim-cropper/demo/dist/)
 
 [Demo 源码](https://github.com/wannaxiao/vue-slim-cropper/blob/master/demo/App.vue)
