@@ -2,12 +2,12 @@
   "name": "vue-slim-cropper",
   "version": "0.1.0",
   "description": "💇 A simple and elegant mobile image crop upload component for Vue 2.x | 简洁易用的 vue 移动端图片裁剪上传组件",
-  "author": "momoko <ko.momo@qq.com>",
+  "author": "komo <ko.momo@qq.com>",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/wannaxiao/vue-slim-cropper"
+    "url": "https://github.com/komomoo/vue-slim-cropper"
   },
   "keywords": [
     "vue",

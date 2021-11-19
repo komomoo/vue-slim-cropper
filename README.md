@@ -8,9 +8,9 @@ English | [简体中文](./README.zh-CN.md)
 
 <img src="./demo/assets/qrcode.png" width="200" style="margin-top: 20px;">
 
-[Demo](https://wannaxiao.github.io/vue-slim-cropper/demo/dist/)
+[Demo](https://komomoo.github.io/vue-slim-cropper/demo/dist/)
 
-[Demo Source Code](https://github.com/wannaxiao/vue-slim-cropper/blob/master/demo/App.vue)
+[Demo Source Code](https://github.com/komomoo/vue-slim-cropper/blob/master/demo/App.vue)
 
 ## 🚀 QuickStart
 
@@ -28,7 +28,7 @@ import SlimCropper from 'vue-slim-cropper'
 Vue.use(SlimCropper)
 ```
 
-3.  Usage. Please refer to the [Demo Source Code](https://github.com/wannaxiao/vue-slim-cropper/blob/master/demo/App.vue)
+3.  Usage. Please refer to the [Demo Source Code](https://github.com/komomoo/vue-slim-cropper/blob/master/demo/App.vue)
 
 ```html
 <SlimCropper ref="cropper" :src=""></SlimCropper>
@@ -60,4 +60,4 @@ Vue.use(SlimCropper)
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2018-present, momoko
+Copyright (c) 2018-present, komo

@@ -1,6 +1,6 @@
 /**
  * vue-slim-cropper
- * @Author momoko
+ * @Author komo
  * @Date 2019/07
  */
 
